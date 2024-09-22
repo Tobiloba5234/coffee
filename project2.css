@@ -1,0 +1,41 @@
+.container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.hex_code{
+    text-align: center;
+}
+
+.hex_code h1{
+    font-size: 2rem;
+    animation: colorchange 3s infinite alternate;
+}
+
+@keyframes colorchange {
+    0%{
+        color: red;
+    } 
+    20%{
+        color: blue;
+    } 
+    40%{
+        color: yellow;
+    }
+    60%{
+        color: green;
+    }  
+    80%{
+        color: gray;
+    } 
+    100%{
+        color: orange;
+    } 
+}
+
+.hex_code h2{
+    margin-top: 10%;
+    font-size: 2rem;
+}
